@@ -11,19 +11,19 @@ const Navbar = () => {
   return (
     <div>
         <div className='flex justify-between items-center p-10'>
-            <div className='w-36'><Image src={logo} alt='logo'/></div>
+            <div className='w-36 hover:cursor-pointer'><Image src={logo} alt='logo'/></div>
             <div className='flex gap-10 text-xl'>
-                <div className='flex items-center'>Home <RiArrowDropDownLine /></div>
-                <div className='flex items-center'>shop <RiArrowDropDownLine /></div>
-                <div className='flex items-center'>Product <RiArrowDropDownLine /></div>
-                <div className='flex items-center'>Blog <RiArrowDropDownLine /></div>
-                <div className='flex items-center'>Featured <RiArrowDropDownLine /></div>
+                <div className='flex items-center hover:text-amber-600 hover:cursor-pointer'>Home <RiArrowDropDownLine /></div>
+                <div className='flex items-center hover:text-amber-600 hover:cursor-pointer'>shop <RiArrowDropDownLine /></div>
+                <div className='flex items-center hover:text-amber-600 hover:cursor-pointer'>Product <RiArrowDropDownLine /></div>
+                <div className='flex items-center hover:text-amber-600 hover:cursor-pointer'>Blog <RiArrowDropDownLine /></div>
+                <div className='flex items-center hover:text-amber-600 hover:cursor-pointer'>Featured <RiArrowDropDownLine /></div>
             </div>
             <div className='flex gap-3.5 text-3xl'>
-                <div><FiSearch /></div>
-                <div className='font-bold'><MdPersonOutline /></div>
-                <div><FaRegHeart /></div>
-                <div><CgShoppingCart /></div>
+                <div className='hover:cursor-pointer'><FiSearch /></div>
+                <div className='font-bold hover:cursor-pointer'><MdPersonOutline /></div>
+                <div className='hover:cursor-pointer'><FaRegHeart /></div>
+                <div className='hover:cursor-pointer'><CgShoppingCart /></div>
             </div>
         </div>
     </div>
