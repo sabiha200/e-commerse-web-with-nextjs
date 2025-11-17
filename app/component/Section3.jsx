@@ -8,9 +8,9 @@ import Link from "next/link";
 const Section3 = () => {
   return (
     <div className="grid grid-cols-2 px-16 py-10 gap-16">
-      <div className="row-span-2 relative overflow-hidden group cursor-pointer">
-        <Image src={fashion} alt="fashion" className="transition-transform ease-in-out duration-200 hover:scale-110" />
-        <div className="bg-white text-black absolute bottom-50 left-0 px-8 py-6 transform -translate-x-full transition-transform duration-300 ease-in-out group-hover:translate-x-0">
+      <div className="row-span-2 h-[992px] w-[728px] relative overflow-hidden group cursor-pointer">
+        <Image src={fashion} alt="fashion" className="h-full w-full object-cover transition-transform ease-in-out duration-200 hover:scale-110" />
+        <div className="bg-white text-black absolute bottom-[50px] left-0 px-8 py-6 transform -translate-x-full transition-transform duration-300 ease-in-out group-hover:translate-x-0">
           <h1 className="text-4xl pb-4">NEW ARRIVALS</h1>
           <Link
               href={"/"}
@@ -25,9 +25,9 @@ const Section3 = () => {
           <Image src={fashion2} alt="fashion" className="transition-transform duration-200 ease-in-out hover:scale-110" />
           <div className="w-[184px] h-[550px] bg-black "></div>
         </div>
-        <div className="w-[#814px] relative overflow-hidden group cursor-pointer">
-          <Image src={fashion3} alt="fashion" className=" transition-transform duration-200 ease-in-out hover:scale-110" />
-          <div className="bg-white text-black absolute bottom-30 px-8 py-6 transform -translate-x-full transition-transform duration-300 ease-in-out group-hover:translate-x-0">
+        <div className="w-[694px] relative overflow-hidden group cursor-pointer">
+          <Image src={fashion3} alt="fashion" className="transition-transform duration-200 ease-in-out hover:scale-110" />
+          <div className="bg-white text-black absolute bottom-[30px] px-8 py-6 transform -translate-x-full transition-transform duration-300 ease-in-out group-hover:translate-x-0">
             <h1 className="text-4xl pb-4">Hand Bag</h1>
             <Link
               href={"/"}
