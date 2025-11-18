@@ -6,7 +6,7 @@ import { BsTwitterX } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="bg-black h-96 py-12 text-white px-20 grid grid-cols-4 gap-10">
+    <div className="bg-black h-96 py-20 text-white px-20 grid grid-cols-4 gap-10">
       <div className="flex flex-col gap-5">
         <div className="w-36 text-white pb-3 hover:cursor-pointer">
           <Image src={Logo} alt="logo" />
