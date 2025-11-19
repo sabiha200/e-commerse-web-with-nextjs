@@ -6,7 +6,7 @@ const JoinNewsletter = () => {
     <div className="pt-10">
       <div
         style={{ backgroundImage: `url(${Banner.src})` }}
-        className="h-dvh bg-center bg-cover flex justify-end items-center"
+        className="h-[530px] bg-center bg-cover flex justify-end items-center"
       >
         <div className="flex flex-col gap-4 px-6">
           <p className="text-lg font-normal">SUBSCRIBE</p>
@@ -14,8 +14,8 @@ const JoinNewsletter = () => {
           <div className="pb-4">
             <input
             type="email"
-            placeholder="Email"
-            className="w-lg py-5 px-4 bg-white border-amber-800"
+            placeholder="Email address"
+            className="w-lg py-5 px-4 bg-white border-amber-800 border-none outline-none"
           />
           </div>
           <div className="w-44 py-3 text-center text-xl font-medium text-white bg-amber-800 hover:bg-amber-950 cursor-pointer hover hover:text-white">

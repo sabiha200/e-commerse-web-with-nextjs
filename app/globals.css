@@ -24,3 +24,30 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+@theme {
+
+  --animate-slide-left: slide-left 0.9s ease-out forwards;
+  --animate-slide-left2: slide-left 2s ease-out forwards;
+  --animate-slide-bottom: slide-bottom 0.9s ease-out forwards;
+  @keyframes slide-left {
+    0% {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slide-bottom {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
